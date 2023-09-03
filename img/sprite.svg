@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style><![CDATA[
+      .sprite { display: none; }
+      .sprite:target { display: inline; }
+    ]]></style>
+  </defs>
+
+<g class="sprite" id="cart">
+<path d="M8 22.4a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2ZM19.2 22.4a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2ZM22.4 4H4.66L4 .64A.8.8 0 0 0 3.2 0H0v1.6h2.54L5.6 16.96a.8.8 0 0 0 .8.64h14.4V16H7.06l-.66-3.2h14.4a.8.8 0 0 0 .8-.62l1.6-7.2a.8.8 0 0 0-.8-.98Zm-2.24 7.2H6.1L4.98 5.6H21.4l-1.24 5.6Z"/>
+</g>
+
+</svg>

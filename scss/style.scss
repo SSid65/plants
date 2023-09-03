@@ -1,0 +1,28 @@
+// @import "./destyle" ;
+// @import "./normalize" ;
+@import "./reset";
+// @import "./visHidden";
+// @import "./vars";
+
+//   add fonts
+// @import "./";
+
+
+body {
+//
+  // font-family: $fontMain;
+  font-style: normal;
+  // font-weight: $fontWeightNormal;
+  // font-size: $fontSize * 1.6;
+  // line-height: $fontSize * 2.0;
+  // color: $colorFontMain;
+  // background-color: #ffffff;
+}
+
+
+/* Контейнер, ограничивающий фиксированный макет */
+.container {
+  max-width: __px;
+  margin: 0 auto;
+}
+
