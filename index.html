@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta charset="UTF-8">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet" />
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <!-- Начало: Данный блок удалять нельзя -->
@@ -15,18 +19,240 @@
         </a>
         <div>
             <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+                    href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
             </p>
             <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
+                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+                пользователь получил оплату за верстку этого макета.
             </p>
         </div>
     </div>
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+
+        <header>
+            <div class="header container">
+                <div class="header__logo">
+                    <svg viewBox="0 0 34 32">
+                        <title>Logo Plants</title>
+                        <use href="./img/sprite.svg#logo"></use>
+                    </svg>
+                    <p>plants</p>
+                </div>
+                <ul class="header__nav">
+                    <li>
+                        <a href="#">home</a>
+                    </li>
+                    <li>
+                        <a href="#">about</a>
+                    </li>
+                    <li>
+                        <a href="#">product</a>
+                    </li>
+                    <li>
+                        <a href="#">plants care</a>
+                    </li>
+                </ul>
+                <ul class="header__userNav">
+                    <li>
+                        <a href="#">
+                            <svg viewBox="0 0 26 26">
+                                <title>Search</title>
+                                <use href="./img/sprite.svg#search"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg viewBox="0 0 28 28">
+                                <title>Cart</title>
+                                <use href="./img/sprite.svg#cart"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg viewBox="0 0 21 27">
+                                <title>User data</title>
+                                <use href="./img/sprite.svg#user"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <h1 class="visuallyHidden">Our Plant in Your Home </h1>
+
+            <section class="about">
+                <div class="about_container container">
+                    <div class="about__text">
+                        <h2>Make green your favorite home & <span>Living better</span></h2>
+                        <p class="about__lead">Very beautiful plant decorationto make our lives healthy <br>
+                            and the home
+                            environment so that the
+                            almosphere become calmer.</p>
+                        <div class="bottons">
+                            <a class="btn btn_green" href="#">Shop now</a>
+                            <a class="btn btn_none" href="#"><span>Explore Now</span></a>
+                        </div>
+                        <table class="ourData">
+                            <tr>
+                                <th>250+</th>
+                                <th>500+</th>
+                                <th>200+</th>
+                            </tr>
+                            <tr>
+                                <td>Order everyday</td>
+                                <td>On Collection</td>
+                                <td>Sell everyday</td>
+                            </tr>
+                        </table>
+                        <img class="star" src="./img/star01.png" alt="" width="96" height="96">
+                        <img class="stars" src="./img/stars01.png" alt="" width="120" height="120">
+                    </div>
+                    <div class="about__img">
+                        <img src="./img/bg01.png" alt="" width="872" height="1199">
+                    </div>
+
+                    <div class="about__footer">
+                        <p class="findUs">Where to find</p>
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    Google
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    Linkedin
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    youtube
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bestsellers container">
+                <h2 class="bestsellers__title sectionTitle">Best seller products</h2>
+                <p class="bestsellers__text">Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                    Latin literature</p>
+                <ul class="bestsellers__list">
+                    <li class="bestsellers__item itemCard itemCard_big">
+                        <h3 class="itemCard__title">Alocasia polly</h3>
+                        <p class="itemCard__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud </p>
+                        <picture class="itemCard__img">
+                            <source srcset="./img/plant-1.webp" type="image/webp">
+                            <source srcset="./img/plant-1.png" type="image/png">
+                            <img src="./img/plant-1.jpg" alt="plant" width="395" height="322">
+                        </picture>
+                        <p class="itemCard__price btnRound btnRound_white">$45.15</p>
+                        <button class="itemCard__add btnRound btnRound_green">Add to cart</button>
+                    </li>
+                    <li class="bestsellers__item itemCard itemCard_medium">
+                        <h3 class="itemCard__title">Peace lily</h3>
+                        <p class="itemCard__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud </p>
+                        <picture class="itemCard__img">
+                            <source srcset="./img/plant-2.webp" type="image/webp">
+                            <source srcset="./img/plant-2.png" type="image/png">
+                            <img src="./img/plant-2.jpg" alt="plant" width="299" height="318">
+                        </picture>
+                    </li>
+                    <li class="bestsellers__item itemCard itemCard_small">
+                        <h3 class="itemCard__title">Camille Lily</h3>
+                        <p class="itemCard__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud </p>
+                        <picture class="itemCard__img">
+                            <source srcset="./img/plant-3.webp" type="image/webp">
+                            <source srcset="./img/plant-3.png" type="image/png">
+                            <img src="./img/plant-3.jpg" alt="plant" width="246" height="200">
+                        </picture>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="team">
+                <div class="container">
+                    <div class="team__img">
+                        <img src="./img/plant-4.png" alt="" width="457" height="590">
+                        <img src="./img/plant-05.png" alt="" width="573" height="738">
+                        <div class="spoiler">
+                            <img src="./img/bars.svg" alt="" width="299" height="146">
+                        </div>
+                    </div>
+                    <div class="team__txt">
+                        <h2 class="team__title sectionTitle">If you love garden you’ll love Spring and our team</h2>
+                        <p class="team__text">Welcome the new season with the plants that are raring to go. We’ve worked
+                            out which plants go well together so you can just plant up in your garden for instant impact
+                            and grow fastly.</p>
+                        <a class="btn btn_green" href="#">View more</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <h2 class="visuallyHidden">Our advantages</h2>
+                <ul class="features__list container">
+                    <li class="features__item">
+                        <h3 class="features__title">Quality Products</h3>
+                        <p class="features__text">Join us for one of our open days and find a plant and quality product
+                            that suit for your garden.</p>
+                        <img class="features__img" src="./img/01.png" alt="" width="96" height="96">
+                    </li>
+                    <li class="features__item features__item_big">
+                        <h3 class="features__title">Always Fresh</h3>
+                        <p class="features__text">Make your garden a place to sit back and enjoy by adding a comfortable
+                            garden bench for relaxing</p>
+                        <img class="features__img" src="./img/02.png" alt="" width="93" height="93">
+                    </li>
+                    <li class="features__item">
+                        <h3 class="features__title">Excellent Services</h3>
+                        <p class="features__text">Our edited collection ranges from plant gifts to treats for the home,
+                            that help you find the ideal gift..</p>
+                        <img class="features__img" src="./img/03.png" alt="" width="104" height="104">
+                    </li>
+                </ul>
+            </section>
+
+            <section class="collection">
+                <div class="container">
+                    <div class="collection__txt">
+                        <h2 class="collection__title">Collection of plants</h2>
+                        <a class="btn btn_green" href="#">Shop now</a>
+                    </div>
+                    <div class="collection__img">
+                        <img class="collection__bgnd" src="./img/plant-6.png" alt="" width="359" height="549">
+                        <img class="collection__stamp" src="./img/stamp.png" alt="" width="350" height="350">
+                    </div>
+                </div>
+            </section>
+        </main>
+
     </div>
 
 </body>
+
 </html>

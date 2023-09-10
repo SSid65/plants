@@ -1,12 +1,21 @@
-// $fontMain: "__", "Verdana", "Helvetica", "Arial", sans-serif;
+$fontMain: "Poppins", "Verdana", "Helvetica", "Arial", sans-serif;
 // $fontTitle: "__", "Verdana", "Helvetica", "Arial", sans-serif;
 
 // don't change, root base size = 10px
-$fontSize: 62.5%;
+$fontSize: 10px;
 //usually - normal 400
 $fontWeightNormal: 400;
 
 $colorBgnd: #ffffff;
-// $color_1: #3a353c;
-// $color_2: #757575;
-// $color_3: #555555;
+$colorBgndSecond: #165166;
+$colorBlack: #000000;
+$colorGrayLight: #efefef;
+$colorGray: #cdcdcd;
+$colorGrayDark: #bcb9b9;
+$colorGreen: #54c352;
+$colorGreenLight: #05ff00;
+$colorGreenDark: #78a677;
+
+$color_1: #d9d9d9;
+
+$color_3: #dcf8ec;
